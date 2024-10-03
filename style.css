@@ -120,6 +120,23 @@
   .logo-wrapper > img {
     margin-right: 16px;
   }
+
+  .logo-wrapper .types {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .logo-wrapper .types a{
+    text-decoration: none;
+    color: red;
+    border: white 1px solid;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
   
   .search-wrapper,
   .search-wrap {
@@ -530,4 +547,14 @@
     border-color: transparent;
     background-color: transparent;
   }
+  
+
+  .img-pokemon {
+    transition: transform 0.3s ease;
+  }
+
+  .img-pokemon:hover {
+    transform: scale(1.3);
+  }
+
   
